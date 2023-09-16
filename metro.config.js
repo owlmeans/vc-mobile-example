@@ -14,5 +14,4 @@ const config = getDefaultMetroConfig(__dirname)
 // config.projectRoot = path.resolve('./')
 // console.log(config)
 // console.log(config.transformer.getTransformOptions())
-config.unstable_enablePackageExports = true
 module.exports = mergeConfig(getDefaultConfig(__dirname), config)

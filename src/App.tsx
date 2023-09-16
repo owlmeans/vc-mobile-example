@@ -7,7 +7,7 @@
 
 import React from 'react'
 import { SafeAreaView, Text, View } from 'react-native'
-import { DebugSSIView } from '@owlmeans/vc-lib-native'
+import { DebugSSIView } from '@owlmeans/vc-lib-native/dist/debug'
 
 function App(): JSX.Element {
 

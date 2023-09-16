@@ -1600,17 +1600,19 @@
   resolved "https://registry.yarnpkg.com/@owlmeans/vc-ext-comm/-/vc-ext-comm-0.1.0.tgz#eb4f73fc49a751eaada6b186abbaa5293134dad8"
   integrity sha512-3vCXLFMfqen9JhnEwtf6j4KUN1av95dwFXp6NIG7m8T8tywpsgNl5yvBOKSuxmVHXvRxbViymMzgSshdE4j/+g==
 
-"@owlmeans/vc-lib-native@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@owlmeans/vc-lib-native/-/vc-lib-native-0.1.1.tgz#4acdd99095c863d3eab1d70a454e3a56bf0c43a2"
-  integrity sha512-5nbOhyt3XlqAi1Uov4LlbREQeus879wsGKfndo6mv3f8PhYQy3P0ls/oGP6cHKlBolauxlezyqT808t9xq3WCg==
+"@owlmeans/vc-lib-native@^0.1.2-alpha.1":
+  version "0.1.2-alpha.1"
+  resolved "https://registry.yarnpkg.com/@owlmeans/vc-lib-native/-/vc-lib-native-0.1.2-alpha.1.tgz#95fcf3121a5b27dab23fa1e5ab2db007bd96bf4d"
+  integrity sha512-2zRhcHYcTP5tzvGlGzm7bELIXSe4crsM1Gv60gSFDIW6COwcn6s2vxg3NlixGY8d0dvK9miw8YKVwiexF6nriw==
   dependencies:
     "@ethersproject/shims" "^5.7.0"
-    "@owlmeans/vc-core" "^0.1.0"
     browserify-aes "^1.2.0"
     buffer "^6.0.3"
+    crypto-browserify "^3.12.0"
     events "^3.3.0"
     process "^0.11.10"
+    react-native-get-random-values "^1.9.0"
+    react-native-url-polyfill "^1.3.0"
     stream-browserify "^3.0.0"
 
 "@owlmeans/vc-lib-react@^0.1.0":
@@ -6618,10 +6620,10 @@ react-native-get-random-values@^1.9.0:
   dependencies:
     fast-base64-decode "^1.0.0"
 
-react-native-url-polyfill@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/react-native-url-polyfill/-/react-native-url-polyfill-2.0.0.tgz#db714520a2985cff1d50ab2e66279b9f91ffd589"
-  integrity sha512-My330Do7/DvKnEvwQc0WdcBnFPploYKp9CYlefDXzIdEaA+PAhDYllkvGeEroEzvc4Kzzj2O4yVdz8v6fjRvhA==
+react-native-url-polyfill@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/react-native-url-polyfill/-/react-native-url-polyfill-1.3.0.tgz#c1763de0f2a8c22cc3e959b654c8790622b6ef6a"
+  integrity sha512-w9JfSkvpqqlix9UjDvJjm1EjSt652zVQ6iwCIj1cVVkwXf4jQhQgTNXY6EVTwuAmUjg6BC6k9RHCBynoLFo3IQ==
   dependencies:
     whatwg-url-without-unicode "8.0.0-3"
 
