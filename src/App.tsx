@@ -6,17 +6,14 @@
  */
 
 import React from 'react'
-import { SafeAreaView, Text, View } from 'react-native'
 import { DebugSSIView } from '@owlmeans/vc-lib-native/dist/debug'
+import { NavigationContainer } from '@react-navigation/native'
 
 function App(): JSX.Element {
 
-  return (
-    <SafeAreaView>
-      <View><Text>Hello world</Text></View>
-      <DebugSSIView />
-    </SafeAreaView>
-  )
+  return <NavigationContainer>
+    <DebugSSIView />
+  </NavigationContainer>
 }
 
 export default App
