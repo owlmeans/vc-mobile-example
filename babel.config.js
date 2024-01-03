@@ -1,5 +1,5 @@
 module.exports = {
-  presets: ['module:metro-react-native-babel-preset'],
+  presets: ['module:@react-native/babel-preset'],
   plugins: [
     [
       'module-resolver',
@@ -12,7 +12,8 @@ module.exports = {
         }
       }
     ],
-    ["@babel/plugin-transform-private-methods", { "loose": true }]
+    ["@babel/plugin-transform-private-methods", { "loose": true }],
+    'react-native-reanimated/plugin'
   ],
   env: {
     production: {
