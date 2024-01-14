@@ -1765,6 +1765,13 @@
   dependencies:
     react-router-dom-owlmeans "npm:react-router-dom@^6.11.2"
 
+"@owlmeans/vc-ext-identity@^0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@owlmeans/vc-ext-identity/-/vc-ext-identity-0.1.4.tgz#5b3b6ab670a4b78c00bee1923d5d4555e81b338e"
+  integrity sha512-Bfma4syIxj7H6HYGYlJFmKQGUF3hXVtYy7W+6i4JmxhJQ9MTDWrDXebXS8Ky93+C5FIWDigTgImV9snfh1EOaA==
+  dependencies:
+    react-router-dom-owlmeans "npm:react-router-dom@^6.11.2"
+
 "@owlmeans/vc-lib-native@^0.1.4":
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/@owlmeans/vc-lib-native/-/vc-lib-native-0.1.4.tgz#83867d9f2676c9fab9761c2a0ece1bd95cb92c4a"
@@ -6833,6 +6840,11 @@ react-is@^17.0.1:
   version "17.0.2"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
+
+react-native-config@^1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/react-native-config/-/react-native-config-1.5.1.tgz#73c94f511493e9b7ff9350cdf351d203a1b05acc"
+  integrity sha512-g1xNgt1tV95FCX+iWz6YJonxXkQX0GdD3fB8xQtR1GUBEqweB9zMROW77gi2TygmYmUkBI7LU4pES+zcTyK4HA==
 
 react-native-gesture-handler@^2.14.0:
   version "2.14.0"
