@@ -7,6 +7,7 @@
 
 import React from 'react'
 import { DebugSSIView } from '@owlmeans/vc-lib-native/dist/debug'
+// import { PolyfillCrypto } from '@owlmeans/vc-lib-native'
 import { NavigationContainer } from '@react-navigation/native'
 import { buildUIExtensionRegistry } from '@owlmeans/vc-lib-react/dist/shared'
 import { buildCommNativeExtension } from '@owlmeans/vc-ext-comm/dist/native'
@@ -27,7 +28,8 @@ registry.registerSync(buildIdentityExtensionNative(EXAMPLE_IDENTITY_TYPE, { appN
 
 function App(): JSX.Element {
   return <NavigationContainer>
-    <DebugSSIView extensions={registry.normalize()} />
+    {/* <PolyfillCrypto /> */}
+    <DebugSSIView extensions={registry.normalize()} config={config} />
   </NavigationContainer>
 }
 
